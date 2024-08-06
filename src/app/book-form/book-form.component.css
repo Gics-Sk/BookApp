@@ -23,3 +23,11 @@ form {
                background:#8b4e04;
                border: none;
   }
+  .card {
+               box-shadow: 1px 1px 9px #333231;
+               padding: 1rem;
+               width: 600px;
+               margin-inline: auto;
+               margin-block: 2rem;
+               border-radius: 1rem;
+              }

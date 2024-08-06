@@ -34,30 +34,6 @@ header {
                font-weight: bold;
              }
             
-             form {
-                          display:flex;
-                          flex-direction: column;
-                          justify-content: center;
-                          width: 50%;
-                          margin: 2rem auto;
-             }
-             input,textarea{
-                          display: block;
-                          margin-block:1rem ;
-                          padding: 1rem;
-                          border-radius: 1rem;
-                          border: 1px solid;
-             }
-             input[type="submit"]{
-                          color: #fff;
-                          background:#ee8206;
-                          border: none;
-             }
-             input[type="submit"]:hover{
-                          color: #fff;
-                          background:#8b4e04;
-                          border: none;
-             }
              .containerbtn {
               display: flex;
               justify-content: center;

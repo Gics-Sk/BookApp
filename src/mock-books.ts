@@ -14,7 +14,19 @@ export const BOOKS: Array<interFaceBook>= [
                {
                  id: 3,
                  title: 'Tout sur le Javascript',
+                 author: 'Paul Constantin',
+                 statut: 'En attente',
+               },
+               {
+                 id: 4,
+                 title: 'Tout sur Angular',
                  author: 'Paul Hussier',
-                 statut: 'Terminé',
+                 statut: 'En attente',
+               },
+               {
+                 id: 5,
+                 title: 'Tout sur laravel',
+                 author: 'Paul Husir',
+                 statut: 'En attente',
                },
              ];

@@ -8,4 +8,10 @@ import { BOOKS } from '../mock-books';
 export class ServiceBooksService {
 books: interFaceBook[]= BOOKS;
   constructor() { }
+
+  // Méthode de stockage des données
+
+  getBooks():interFaceBook[]{
+return this.books;
+  }
 }

@@ -1,11 +1,11 @@
 <div class="card" *ngIf="affiche">
-  <form [FormGroup]=" inputForm" (ngSubmit)="validationFormulaire">
+  <form [formGroup]=" inputForm" >
     <label for="title">Titre du livre</label>
     <input type="text" placeholder="Entrer le titre du livre" formControlName="title" id="title" />
     <label for="author">Auteur du livre</label>
     <input type="text" placeholder="Entrer l'auteur du livre" formControlName="author" id="author" />
-    <label for="statut">Statut</label>
-    <input type="text" disabled value="En attente"  id="statut" formControlName="statut" />
+    <!-- <label for="statut">Statut</label> -->
+    <input type="hidden" value="En attente"  id="statut" formControlName="statut" />
     <input type="submit" value="Enregistrer" />
   </form>
 </div>
